@@ -1,39 +1,48 @@
-# Rocketshoes - Frontend
-A React App created on Rocketseat's 7th Bootcamp module
+# RocketShoes
 
-## Environment
-- OS: Ubuntu 18.04
-- Text editor: VS Code 1.37.0
+> A React App created on Rocketseat's 7th Bootcamp module to emulate an ecommerce
 
-## Tools
-- Axios
-- ESLint
-- Prettier
-- JSON Server
-- Styled Components
-- Polished
-- ReactJS
-- Reactotron
-- React Icons
-- React Toastify
-- Redux
-- Redux Saga
+---
 
-## Running the app:
-To start the JSON Server, run:
+# :wrench: Stack
+
+This project was created using [React](https://reactjs.org/) and [Styled Components](https://styled-components.com/).
+
+# :construction_worker: Installation
+
+**Once you have [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/) installed, install the dependencies running:**
+
+```bash
+$ yarn
+```
+
+**Setup the API**
+
+This project uses [JSON Server](https://github.com/typicode/json-server) to simulate an API.
+
+To start the server, run:
+
 ```bash
 $ yarn json-server server.json -p 3333
 ```
 
-Now start the application by running:
+# :rocket: Running the app
+
+After doing the previous steps, inside the cloned repo folder run:
+
 ```bash
 $ yarn start
 ```
 
-## Screens
-![Home](examples/home.png)
+# :memo: License
 
+This project is under the [MIT license](https://github.com/v1eira/Rocketshoes-Frontend/blob/master/LICENSE).
+
+# :computer: Screens
+
+![Home](examples/home.png)
 ![Cart](examples/cart.png)
 
-## Mobile
+# :iphone: Mobile
+
 Click [here](https://github.com/v1eira/rocketshoes-mobile) to see the mobile version of this app.
